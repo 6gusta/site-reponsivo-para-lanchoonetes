@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="lache.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="celular.css">
+    <!-- Ícone de Moto do Material Design -->
+
+
+</head>
+
+<body >
+
+    <header>
+        <div id="text">
+            <p id='texto'>
+            
+                <b>
+                    <h1>##############</h1> 
+                </b>
+                <b>
+                    <p>RUA ## QD ## L##</p>
+                </b>
+                <b>
+                    <P>#################</P>
+                </b>
+                <b>
+                    <p id="RED">fora de horario</p>
+                </b>
+            </p>
+        </div>
+        <div id="caixa">
+            <span class="material-symbols-outlined" id="burguer" onclick="clickmenu()">
+                
+            </span>
+       
+            <b>
+                <p>-=-=BURGUER=-=-</p>
+            </b>
+        </div>
+    </header>
+        <menu id="itens">
+        <h4> CATEGORIAS </h4>
+        <ul>
+            <li>promo do dia</li>
+            <li> baguetes</li>
+            <li> combos familia </li>
+            <li> batatas fritas </li>
+            <li> burgues </li>
+            <li> molhos </li>
+            <li> sucos</li>
+            <li>refrigerante</li>
+            
+        </ul>
+
+    </menu>
+    <div class="container">
+        <div id="moto">
+        
+              
+              
+           
+
+            <b> 🏍️ . entrega. 60 min</b></p>
+        </div>
+        <div id="casa">
+            
+            
+           <p id="motinha"><b> 🏪. Retirada.30min</b></p>
+        </div>
+    </div>
+    <div id="tudo">
+     
+            <span  class="material-symbols-outlined" id="burguer" onclick="clickmenu()">
+                menu
+            </span>
+          
+     
+        <b>
+        <b>
+            <p id="promo"><b>PROMO DO DIA</b></p>
+            <p id="PROMO">  <b>   todos os dias temos promoção para voce</b></p>
+        </b>
+              
+   
+        <div id="escolha">
+            <img  id='arrumar'src="domingo.jpg" alt="">
+            <p id="ped01">
+                <b>########## <br></b>
+                A partir de R$ 50,00 <br>
+                03 Burger House + 1 guaraná 1,5 l. Cada UN.: Pão Brioche, carne 160, queijo, cebola e molho da casa.
+            </p>
+            <div id="quinta">
+                <img  src="quinta_pedidos.jpg" alt="">
+                <div id="ped02">
+
+                    <b>######- PROMO DO DIA</b>
+                    <p>A partir de R$ 34,00 <br>
+                    02 Hill por R$34,00. Cada UN.: Pão brioche, Burger 160g, molho, bacon, salada e queijo.</p>
+                </div>
+            </div>
+        </div>
+        <div id="geral">
+            <div id="fami">
+                <b>
+                    <p id="COMBO">COMBO FAMILIA</p>
+                </b>
+                <img id="arrums" src="reds.jpg" alt="">
+                <p id="ver">
+                    <b>###### <br></b>
+                    A partir de R$ 52,00 <br>
+                    2 Combos Red (2 Red Burgers, 2 Batatas P, 2 Refri 220ml) <br>
+                </p>
+                <div id="pd03">
+                    <img src="domingo (1)1.jpg" alt="">
+                    <p id="d">
+                        <b>######</b> <br>
+                        A partir de R$ 50,00 <br>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore optio nemo exercitatione.
+                    </p>
+                </div>
+                <div id="p56">
+                    <div id="pd04">
+                        <img src="5_e_demais.jpg" alt="" id="cinco">
+                        <p id="di">
+                            ###### <br>
+                            A partir de R$ 73,00 <br>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo, amet sequi? Magni, cupiditate ad <br>
+                        </p>
+                    </div>
+                </div>
+                <div id="t9">
+                    <div id="pd05">
+                        <img src="box.jpg" alt="" id="seis">
+                        <p id="do">
+                           #####<BR></BR>partir de R$ 52,00
+                            
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div id="refris">
+                <p id="byt">
+                    <B>BATATAS</B>
+                </p>
+                <img src="embalagem_batata_frita_m_100pcs_linha_black_batata.jpeg" alt="">
+                A partir de R$ 8,00
+                150g de Batatas Fritas
+                <div id="batata">
+                    <img src="depositphotos_7849707_stock_photo_french_fries_in_white_box.jpeg" alt="">
+                    <p id="ba">
+                        Batata Frita M
+                        A partir de R$ 14,00
+                        350g de Batatas Fritas
+                    </p>
+                </div>
+            </div>
+            <div id="r">
+                <div id="rr">
+                    <p id="refis"><b>REFRIGERANTES</b></p>
+                    <img src="coca_2_lt.jpg" alt="">
+                    <p id="ck">Coca-Cola 2lt
+                        R$ 12,00</p>
+                </div>
+                <div id="guarana">
+                    <img src="guarana_15.jpg" alt="">
+                    <p id="gu">Guaraná Antártica 1,5lt
+                        R$ 10,00</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+        <script>
+   
+        function clickmenu() {
+            var itens = document.getElementById("itens");
+            if (itens.style.display === "block") {
+                itens.style.display = "none";
+            } else {
+                itens.style.display = "block";
+            }
+        }
+    </script>
+</body>
+</html>

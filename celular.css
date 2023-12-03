@@ -1,0 +1,198 @@
+
+
+
+@media screen and (max-width: 600px) {
+   body{
+    font-family: 'Material Symbols Outlined', ;
+   }
+    header {
+        height: 200px;
+        width: 520px;
+        margin-left: 0;
+        justify-content: center;
+        background-image: url(photo-1594078187448-4cbf049bf6c6iiii.jpg);
+
+     
+    }
+    #text{
+        margin-left: 200px;
+        font-size: 13px;
+        overflow: hidden;
+    }
+    #caixa{
+        margin-top: -100px;
+    }
+  
+    .material-symbols-outlined {
+        font-size: 20px;
+        margin-right: 10px;
+        
+    }
+    #vsg{
+        margin-left: 10px;
+    }
+
+    #moto {
+       
+        
+        margin-left: 20px;
+        width: 100vh;
+        height: 50px;
+        font-size: 23px;
+        
+     
+    }
+    #casa{
+       
+        margin-left: 10px;
+        width: 100vh;
+        height: 50px;
+        text-align: left;
+        font-size: 25px;
+        
+    }
+    body{
+        width: 75vh;
+     
+    }
+
+    #tempo, #tempim, #promo, #escolha, #quinta, #fami, #pd03, #pd04, #pd05, #refris, #batata, #ba, #r, #rr, #guarana, #ck, #gu {
+        margin-left: 10px;
+        margin-right: 10px;
+        width: 100%;
+        justify-content: center;
+
+    }
+    #motinha{
+      font-size: 28px;
+    }
+
+    
+    img {
+        float: left; /* Adiciona float left nas imagens para que elas fiquem ao lado uma da outra */
+        margin-right: 0px; /* Ajuste conforme necessário para o espaçamento entre a imagem e o texto */
+        margin-top: 0px;
+    }
+    #ped02{
+        border: none;
+    }
+    
+    #ped01 {
+        overflow: hidden;
+        padding-top: 30px;
+        margin-left: 240px; 
+        border: none;/* Adicione uma margem à esquerda para espaçamento entre a imagem e o texto */
+    }
+    #ped02 {
+        overflow: hidden;
+        padding-top: 40px;
+        margin-left: 230px; 
+        border: none;/* Adicione uma margem à esquerda para espaçamento entre a imagem e o texto */
+    }
+    #pd03 {
+        overflow: hidden;
+        padding-top: 30px;
+    
+        border: none;/* Adicione uma margem à esquerda para espaçamento entre a imagem e o texto */
+    }
+    #refris{
+        margin-top: 20px;
+    }
+    #texto{
+        padding-top: 100px;
+    }
+    #PROMO{
+        margin-left: 10px;
+    }
+    #promo{
+        color: black;
+    }
+    #fami{
+       height: 1100px;
+     
+       
+    }
+    #byt{
+        font-size: 25px;
+        margin-left:0px;
+       padding: 20px;
+    }
+    #refis{
+        font-size: 25px;
+        margin-right: 80px;
+       padding: 20px;
+    }
+    #arrumar{
+      margin-left: 10px;
+    }
+    #arrums{
+        margin-left: 10px;
+    }
+    #escolha{
+        width: 500px;
+    }
+    #geral{
+        width: 500px;
+    }
+    #ver{
+        overflow: hidden;
+        padding-top: 40px;
+        margin-left: 230px; 
+        border: none;
+    }
+    #d{
+          overflow: hidden;
+        padding-top: 40px;
+        margin-left: 230px; 
+        border: none;
+    }
+   #cinco{
+    margin-top: -90px;
+   }
+
+   #seis{
+    margin-top: -70px;
+   }
+   #do{
+      padding-top: -50px;
+      margin-top: -18px;
+      margin-left: 230px;
+   }
+   #di{
+    
+   
+    margin-left: 230px;
+   }
+   
+#burguer{
+    background-color: #000000;
+    color: white;
+    margin-left:380px;
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    font-size: 45px;
+    margin-top: 70px;
+}
+#itens{
+ background-color: white;
+ color: black;
+ width: 240px;
+ height: 300px;
+ margin-left: 200px;
+ display: none;
+ text-align: center;
+ position: fixed;
+ border: 1px solid black;
+}
+li{
+    border: 1px solid black;
+    height: 27px;
+    margin-top: 1px;
+    
+}
+  
+
+
+}
+
